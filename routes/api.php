@@ -16,5 +16,5 @@ Route::get('form', [ValidacionController::class,'index']);
 Route::post('guardar', [ValidacionController::class,'guardar']);
 //post enviar 
 //abre el controloador y guarda los datos en 'guardar'
-//guardar es la ruta para poner en el postman
+//guardar es la ruta para poner en el postman 
 
